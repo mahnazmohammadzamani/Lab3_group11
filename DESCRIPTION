@@ -1,0 +1,23 @@
+Package: Lab3
+Type: Package
+Title: My first package
+Version: 4.1.1
+Date: 2022-09-12
+Author: person("mahnaz", "Mohammadzamani", email = "mahnaz.mzamani@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Bita Tarfiee <b.tarfiee@gmail.com>
+Description: euclidean and dijkstra 
+License: GPL-2
+RoxygenNote: 7.2.1
+Encoding: UTF-8
+language: r
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    igraph,
+    usethis
+exports: euclidean ,dijkstra
+Depends: 
+    R (>= 2.10)
