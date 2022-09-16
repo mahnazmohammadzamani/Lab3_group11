@@ -1,8 +1,6 @@
+#' @title 
 #' Nodes and the weight between each two nodes.
-#'
-#' a data.frame with three variables (v1, v2 and w) that contains
-#' the edges of the graph (from v1 to v2) with the weight of the edge (w)
-#'
+#' a data.frame with three variables (v1, v2 and w)
 #' @format A data frame with 3 variables:
 #' \describe{
 #'   \item{v1}{Source Node}

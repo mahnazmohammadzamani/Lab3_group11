@@ -3,7 +3,8 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{Nodes and the weight between each two nodes.}
+\title{Nodes and the weight between each two nodes.
+a data.frame with three variables (v1, v2 and w)}
 \format{
 A data frame with 3 variables:
 \describe{
@@ -16,8 +17,8 @@ A data frame with 3 variables:
 wiki_graph
 }
 \description{
-a data.frame with three variables (v1, v2 and w) that contains
-the edges of the graph (from v1 to v2) with the weight of the edge (w)
+Nodes and the weight between each two nodes.
+a data.frame with three variables (v1, v2 and w)
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Graph_mathematics}
